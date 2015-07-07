@@ -1,0 +1,44 @@
+.jumbotron {
+  position:static;
+  margin: 0 auto;
+  margin-right: -6%;
+  margin-bottom: 1%;
+  background: black;
+  z-index:-1;
+}
+.container {
+  z-index: -1;
+}
+/*Picture Specifications based on years on the team*/
+.profile {
+  position: relative;
+  margin-top: 2%;
+  z-index: -1;
+}
+
+.one-year {
+  width: 15%;
+  height: 15%;
+}
+.two-year {
+  width: 20%;
+  height: 20%;
+}
+.three-year {
+  width: 25%;
+  height:25%;
+}
+.four-year {
+  width: 32%;
+  height: 32%;
+}
+/*End of picture specifications*/
+
+body {
+  overflow: hidden;
+}
+
+.headshot {
+  width: 20%;
+  height: 20%;
+}

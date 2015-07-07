@@ -1,0 +1,77 @@
+.competition-background{
+  margin: 0 auto;
+  width: 100%;
+  height:100%;
+  position:absolute;
+  z-index: -1;
+}
+
+/*Video order is determined by year.  Percentages can be quickly computed by looking at order of the video.  (Video number-1 * 100).*/
+
+#romeo-intro-vid {
+  top: 15%;
+}
+
+#romeo-dance-vid {
+  top: 50%;
+}
+
+#romeo {
+
+}
+
+#naina-intro-vid {
+  top: 115%;
+}
+
+#naina-dance-vid {
+  top: 150%;
+}
+
+#naina {
+  top: 100%;
+}
+
+#phantom-intro-vid {
+  top: 215%;
+}
+
+#phantom-dance-vid {
+  top: 250%;
+}
+
+#phantom {
+  top: 200%;
+}
+
+#snow-intro-vid {
+  top: 315%;
+}
+
+#snow-dance-vid {
+  top: 350%;
+}
+
+#snow-white {
+  top: 300%;
+}
+
+#diya-intro-vid {
+  top:415%;
+}
+
+#diya-dance-vid {
+  top:450%;
+ }
+
+#diya {
+  top:400%;
+}
+/*End of competition videos*/
+
+iframe {
+  width: 40%;
+  height: 30%;
+  position: absolute;
+  left: 7%;
+}

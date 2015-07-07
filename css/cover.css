@@ -1,0 +1,24 @@
+
+      #first {
+        margin-top: 15%;
+        margin-left: 12%;
+      }
+
+      .quote {
+        font-family: 'Bilbo Swash Caps', cursive;
+        color:white;
+        font-size: 4em;
+        position: absolute;
+      }
+
+      .logo {
+        margin: 0;
+        width: 30%;
+        height: 30%;
+        margin-top: 40%;
+        margin-left: 36%;
+      }
+
+      #azaad-logo {
+        padding-top: 7px;
+      }

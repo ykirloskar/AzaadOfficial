@@ -1,0 +1,40 @@
+/*specifications for competition pictures*/
+.comp_image {
+  position: relative;
+  width: 21%;
+  height: 21%;
+  border-radius: 10%;
+}
+
+#A2 {
+  top: 50%;
+  left: 6%;
+}
+
+#jhoomti {
+  top: 50%;
+  left: 17%;
+}
+
+#tufaan {
+  top: 50%;
+  left: 30%;
+}
+
+.content {
+  font-family: 'Vollkorn', serif;
+}
+
+.centered {
+  text-align: center;
+}
+
+.jumbotron {
+  position:static;
+  margin-bottom: 1%;
+}
+
+#second_body {
+  margin-top: 1%;
+  background: black;
+}

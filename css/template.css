@@ -1,0 +1,46 @@
+#title {
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+.font-style-header {
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
+}
+
+.slider-size {
+  height: 400px;
+}
+
+.navbar-default {
+  background-color: black;
+  border-color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #114a93;
+}
+
+.logo {
+  padding-top: 7px;
+}
+
+.icon {
+  padding-top: 15px;
+  padding-left: 10px;
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
+}
+
+.white {
+  color: /*#114a93*/ white;
+}
+
+body {
+  background: black;
+}
+
+small {
+  margin-left: 6%;
+}
