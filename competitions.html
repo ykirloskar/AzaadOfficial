@@ -11,7 +11,13 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/template.css" rel="stylesheet">
-    <link href="css/competitions.css" rel="stylesheet">
+    <link href="css/tryme.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/unslider.min.js"></script>
+
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -73,41 +79,147 @@
       <!--<small class="white lead">Where excellence is born</small>-->    
     </div>
 
-    <div class="competition-background"> 
-      <iframe id="romeo-intro-vid" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen></iframe>
-      <iframe id="romeo-dance-vid" src="https://www.youtube.com/embed/hWlojen-eUw" frameborder="0" allowfullscreen></iframe>
-      <img class="competition-background" id="romeo" src="images/snowwhite.jpg" />
-    </div> 
 
-    <div class="competition-background">
-      <iframe id="naina-intro-vid" src="https://www.youtube.com/embed/AYmDVnq61x8" frameborder="0" allowfullscreen></iframe>
-      <iframe id="naina-dance-vid" src="https://www.youtube.com/embed/XaL0NzMXm8I" frameborder="0" allowfullscreen></iframe>
-      <img class="competition-background" id="naina" src="images/naina.jpg" />
-    </div> 
+ <div class="banner">
+    <ul>
+      <li id="maya">
+        <div class="videoDiv">
+          <!--Intro Video-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/D5s8f7jG0E8" frameborder="0" allowfullscreen></iframe>         
+          <!--Performance-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/OfvKJduSDfQ" frameborder="0" allowfullscreen></iframe> 
+        </div>
 
-    <div class="competition-background">
-      <iframe id="phantom-intro-vid" src="https://www.youtube.com/embed/c4kJL6uElnc" frameborder="0" allowfullscreen></iframe>
-      <iframe id="phantom-dance-vid" src="https://www.youtube.com/embed/3-pg0PdiF88" frameborder="0" allowfullscreen></iframe>
-      <img class="competition-background" id="phantom" src="images/phantom.jpg" />
-    </div> 
+        <div class="infoDiv"> 
+          <h1> 2015</h1>
+          <p>Some written content goes here</p>
 
-    <div class="competition-background">
-      <iframe id="snow-intro-vid" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen></iframe>
-      <iframe id="snow-dance-vid" src="https://www.youtube.com/embed/5DLe6lFhP1M" frameborder="0" allowfullscreen></iframe>
-      <img class="competition-background" id="snow-white" src="images/snowwhite.jpg" />
-    </div>     
+        </div>
+      </li>
 
-    <div class="competition-background">
-      <iframe id="diya-intro-vid" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen></iframe>
-      <iframe id="diya-dance-vid" src="https://www.youtube.com/embed/zmJIqRH55zc" frameborder="0" allowfullscreen></iframe>
-      <img class="competition-background" id="diya" src="images/diya.jpg" />
-    </div>  
+      <li id="diya">
+        <div class="videoDiv">
 
+          <!--Intro Video-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen></iframe>
+
+          <!--Performance-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbMQ0YzHbhk" frameborder="0" allowfullscreen></iframe>       
+        </div>
+        <div class="infoDiv"> 
+          <h1> 2014</h1>
+          <p>Some written content goes here</p>
+
+        </div>
+
+
+     </li>
+
+      <li id="snowwhite">
+        <div class="videoDiv">
+          <!--Intro Video-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen></iframe>
+          <!--Performance-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zmJIqRH55zc" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="infoDiv"> 
+          <h1> 2013</h1>
+          <p>Some written content goes here</p>
+
+        </div>
+
+      </li>
+
+      <li id="phantom">
+        <div class="videoDiv">
+          <!--Intro Video-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen></iframe>
+          <!--Performance-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zmJIqRH55zc" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="infoDiv"> 
+          <h1> 2012</h1>
+          <p>Some written content goes here</p>
+
+        </div>
+
+      </li> 
+
+      <li id="naina">
+        <div class="videoDiv">
+          <!--Intro Video-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen></iframe>
+          <!--Performance-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zmJIqRH55zc" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="infoDiv"> 
+          <h1> 2011</h1>
+          <p>Some written content goes here</p>
+
+        </div>
+
+      </li> 
+
+      <li id="romeo">
+        <div class="videoDiv">
+          <!--Intro Video-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen></iframe>
+
+          <!--Performance-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zmJIqRH55zc" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="infoDiv"> 
+          <h1> 2010</h1>
+          <p>Some written content goes here</p>
+        </div>
+
+      </li> 
+
+
+    </ul>
+ </div>
+<!-- <div class="banner">
+  <ul>
+    <li style="background-image: url('images/naina.jpg');">
+        <iframe id="romeo-intro-vid" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+        <iframe id="romeo-dance-vid" src="https://www.youtube.com/embed/hWlojen-eUw" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+    </li>
+
+    <li style="background-image: url('images/phantom.jpg');">
+        <iframe id="naina-intro-vid" src="https://www.youtube.com/embed/AYmDVnq61x8" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+        <iframe id="naina-dance-vid" src="https://www.youtube.com/embed/XaL0NzMXm8I" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+    </li>
+
+    <li style="background-image: url('images/snowwhite.jpg');">
+        <iframe id="phantom-intro-vid" src="https://www.youtube.com/embed/c4kJL6uElnc" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+        <iframe id="phantom-dance-vid" src="https://www.youtube.com/embed/3-pg0PdiF88" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+    </li>
+
+    <li style="background-image: url('images/diya.jpg');">
+        <iframe id="snow-intro-vid" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+        <iframe id="snow-dance-vid" src="https://www.youtube.com/embed/5DLe6lFhP1M" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+    </li>
+
+    <li style="background-image: url('images/team2014.jpg');">
+        <iframe id="diya-intro-vid" src="https://www.youtube.com/embed/SvrFXdZ40W0" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+        <iframe id="diya-dance-vid" src="https://www.youtube.com/embed/zmJIqRH55zc" frameborder="0" allowfullscreen width=500px height=500px></iframe>
+    </li>
+  </ul>
 </div>
+ -->
+<script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+  var slidey = $('.banner').unslider({
+    speed: 500,               //  The speed to animate each slide (in milliseconds)
+    delay: 3000,              //  The delay between slide animations (in milliseconds)
+    keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+    dots: true,               //  Display dot navigation
+    fluid: true              //  Support responsive design. May break non-responsive designs
+  });
+  data = slidey.data('unslider');
+  data.pause
+</script>
+
+</body>
 </html>
