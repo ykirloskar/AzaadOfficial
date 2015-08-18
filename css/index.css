@@ -38,3 +38,10 @@
   margin-top: 1%;
   background: black;
 }
+
+.wrap {
+  white-space: normal;
+}
+.mission-statement {
+  height: 1000px;
+}
