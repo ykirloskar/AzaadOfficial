@@ -1,3 +1,5 @@
+/*https://www.google.com/fonts#UsePlace:use/Collection:Raleway+Dots
+*/
 /*specifications for competition pictures*/
 .comp_image {
   position: relative;
@@ -23,25 +25,63 @@
 
 .content {
   font-family: 'Vollkorn', serif;
+  text-decoration: none;
 }
 
 .centered {
   text-align: center;
 }
 
-.jumbotron {
+/*.jumbotron {
   position:static;
   margin-bottom: 1%;
-}
+}*/
 
-#second_body {
+/*#second_body {
   margin-top: 1%;
-  background: black;
+  background: white;
 }
-
+*/
 .wrap {
   white-space: normal;
 }
 .mission-statement {
   height: 1000px;
+}
+
+#title {
+  background: white;
+}
+
+body {
+  background: white;
+}
+
+.whiteback {
+  background: white;
+}
+
+#upcomingdiv {
+  background: black;
+}
+#firstdiv {
+  padding-bottom: 20px;
+}
+
+.awards {
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Limelight';
+}
+
+
+#whoweare {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-color:black;
+  font-size: 54px;
+  font-weight: bold;
+  font-family: 'Raleway Dots';
 }
